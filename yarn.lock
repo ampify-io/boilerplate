@@ -2,10 +2,15 @@
 # yarn lockfile v1
 
 
-"@ampify/aquery@^1.0.0":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@ampify/aquery/-/aquery-1.0.3.tgz#34cfdcad39e712b74a512f9c34c30e466f0dd39f"
-  integrity sha512-4eTT+zDfF220iab0W0tn4RR8qjpBRlB/OzUXj3K94f64JjGd9kaPDOf+QgQ/LouD/5X1SysJep4/qjwhR2iKdA==
+"@ampify/aquery@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@ampify/aquery/-/aquery-1.2.0.tgz#6ca6cc537211c69350c3039d798047c5bb1578be"
+  integrity sha512-HAgfVNc4IcrsaDDdWmNxI31+NrGSjJKT2Se4h09yXsVaVBLzlmkg9t9aLZZg5wTz1UBwmlLDQndkNXOQzd7hxQ==
+  dependencies:
+    "@ampproject/toolbox-script-csp" "^2.0.0"
+    jquery "^3.4.1"
+    lodash.camelcase "^4.3.0"
+    nanoid "^2.1.6"
 
 "@ampify/dev-server@^1.1.0":
   version "1.1.0"
@@ -16,6 +21,11 @@
     debug "^4.1.1"
     express "^4.17.1"
     morgan "^1.9.1"
+
+"@ampproject/toolbox-script-csp@^2.0.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@ampproject/toolbox-script-csp/-/toolbox-script-csp-2.2.0.tgz#7bc33985e94a40acdbddb5695dc8d85f11066803"
+  integrity sha512-Z5AzbWFTlTMJg0z1/frMDmW6Gj+EbOw0dVdFYfdma4AJq4rNoxCQMVgVOjl4ryWNouJvK1RUA8o7sY1WmMx6eg==
 
 "@sindresorhus/df@^1.0.1":
   version "1.0.1"
@@ -2018,6 +2028,11 @@ isobject@^3.0.0, isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
+jquery@^3.4.1:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.5.0.tgz#9980b97d9e4194611c36530e7dc46a58d7340fc9"
+  integrity sha512-Xb7SVYMvygPxbFMpTFQiHh1J7HClEaThguL15N/Gg37Lri/qKyhRGZYzHRyLH8Stq3Aow0LsHO2O2ci86fCrNQ==
+
 json-buffer@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/json-buffer/-/json-buffer-3.0.0.tgz#5b1f397afc75d677bde8bcfc0e47e1f9a3d9a898"
@@ -2126,6 +2141,11 @@ locate-path@^3.0.0:
   dependencies:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
+
+lodash.camelcase@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
+  integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
 
 loud-rejection@^1.0.0:
   version "1.6.0"
@@ -2438,6 +2458,11 @@ nan@^2.12.1:
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
   integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
+
+nanoid@^2.1.6:
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.11.tgz#ec24b8a758d591561531b4176a01e3ab4f0f0280"
+  integrity sha512-s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==
 
 nanomatch@^1.2.9:
   version "1.2.13"
