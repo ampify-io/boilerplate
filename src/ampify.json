@@ -1,1 +1,10 @@
-{}
+{
+  "plugins": [
+    {
+      "name": "ampify"
+    }
+  ],
+  "dev": {
+    "paths": ["http://localhost:2310/ampify.js"]
+  }
+}

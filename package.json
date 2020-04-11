@@ -11,7 +11,8 @@
     "@ampify/aquery": "^1.0.0"
   },
   "devDependencies": {
-    "@ampify/dev-server": "^1.0.1",
+    "@ampify/dev-server": "^1.0.0",
+    "copy-webpack-plugin": "^5.1.1",
     "prettier": "^2.0.4",
     "trash-cli": "^3.0.0",
     "webpack": "^4.41.6",
