@@ -1,5 +1,5 @@
-export default () => {
-    const h1 = document.querySelector('h1');
+import $ from '@ampify/aquery';
 
-    h1.innerHTML = 'Ampify'
+export default () => {
+  //aQuery code here!
 };
