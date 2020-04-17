@@ -2,20 +2,20 @@
 # yarn lockfile v1
 
 
-"@ampify/aquery@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@ampify/aquery/-/aquery-1.2.0.tgz#6ca6cc537211c69350c3039d798047c5bb1578be"
-  integrity sha512-HAgfVNc4IcrsaDDdWmNxI31+NrGSjJKT2Se4h09yXsVaVBLzlmkg9t9aLZZg5wTz1UBwmlLDQndkNXOQzd7hxQ==
+"@ampify/aquery@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@ampify/aquery/-/aquery-1.2.2.tgz#ab6b1d19b7c646eeb1d6b95b29330c7875a89ce4"
+  integrity sha512-m52IqrVGrx7vjzpx3Ls673wnMFve7GW9Oz15xhkYAoARr01hSN+mmLzM8SKiVAlbN8/IQEJ3U/iyZ+m+6zHzsQ==
   dependencies:
     "@ampproject/toolbox-script-csp" "^2.0.0"
     jquery "^3.4.1"
     lodash.camelcase "^4.3.0"
     nanoid "^2.1.6"
 
-"@ampify/dev-server@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@ampify/dev-server/-/dev-server-1.1.0.tgz#0b857cbb47874a9ce1e11304258425f81536c034"
-  integrity sha512-f1yWdkXqgF3tOkGMMWFY11uJtdJkchUpjZR7AgnLJg4WYm6rFJUJr4mTTQLx6gk8nKdJAMP1z1aOYNuql9OttQ==
+"@ampify/dev-server@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@ampify/dev-server/-/dev-server-1.2.1.tgz#ea3f6982bfd84c737cf4b290acc9d6e733379830"
+  integrity sha512-JnWxC0anMMBUL6Kpsq7n9+LqKDm3XgNzKCKbTHXxANmoWGyqY776kt4fXH7FMT0qf44uCuf6/iglS+RMUh+kpA==
   dependencies:
     body-parser "^1.19.0"
     debug "^4.1.1"
