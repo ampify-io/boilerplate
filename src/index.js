@@ -43,10 +43,10 @@ export default () => {
       You can manually exclude classes and IDs from minification by calling $.cssIgnore(‘.ignore-this’, ‘#and-this’). 
       By default, Ampify minifies all CSS classes and IDs in order to meet the 75k
       css limit requirement. However it is necessary to keep the IDs and
-      classes that have been used in the aQuery code. By default $.cssIgnore() returns an array
+      classes that have been used in the aQuery code. By default $.getCssIgnore() returns an array
       of all the classes and IDs that have been used in this file. Manual exclusion adds to this array. 
     */   
-    cssIgnore: $.cssIgnore(),
+    cssIgnore: $.getCssIgnore(),
     
     /* 
       === Development ===  

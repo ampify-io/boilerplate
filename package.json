@@ -8,7 +8,7 @@
     "start": "ampify-dev-server"
   },
   "dependencies": {
-    "@ampify/aquery": "^1.2.12"
+    "@ampify/aquery": "^1.3.0"
   },
   "devDependencies": {
     "@ampify/dev-server": "^1.2.8",
